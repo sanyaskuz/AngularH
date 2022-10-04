@@ -1,0 +1,17 @@
+{
+  "itemList": [
+    {
+      "productItem": "Nokia",
+      "priceItem": 370,
+      "idItem": 1
+    },
+    {"productItem": "Samsung",
+      "priceItem": 500,
+      "idItem": 2
+    },
+    {"productItem": "appal",
+      "priceItem": 500,
+      "idItem": 3
+    }
+  ]
+}
