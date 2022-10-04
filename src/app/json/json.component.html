@@ -1,0 +1,8 @@
+<div>
+  <ul *ngFor="let item of items">
+  <li [style]="{'color':'red'}">{{item?.id}}</li>
+  <li [style]="{'color':'aqua'}">{{item?.product}}</li>
+  <li [style]="{'color':'purple'}">{{item?.price}}</li>
+  </ul>
+</div>
+<div>{{this.httpService.errorMes}}</div>

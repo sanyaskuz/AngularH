@@ -1,0 +1,18 @@
+<h1 class="">
+  <span>Search films</span>
+</h1>
+<div class="searchForm">
+<form >
+  <div style="padding: 55px 5.5% 5px 5%">
+    <input style="margin-right: 10px" type="text" placeholder="Name" class="input" [ngModelOptions]="{standalone:true}" ngModel #name="ngModel" required/>
+    <input style="margin-right: 10px" type="text" placeholder="Year" class="input" [ngModelOptions]="{standalone:true}" ngModel #year="ngModel" required/>
+    <select style="margin-right: 10px" id="select" class="input" [ngModelOptions]="{standalone:true}" ngModel #select="ngModel">
+      <option>movie</option>
+      <option>series</option>
+      <option>episode</option>
+    </select>
+    <button id="button" class="btn btn-dark" type="reset" (click)="search(name.value,year.value,select.value)">Send</button>
+  </div>
+</form>
+</div>
+
